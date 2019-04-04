@@ -335,4 +335,7 @@ delta2 = now2-then2
 delta3 = now2 - then2
 then3=datetime.datetime(2019,4,4,16,0)
 
+handle_start()
+handle_text()
+handle_photo()
 bot.polling(none_stop=True, interval=0)
