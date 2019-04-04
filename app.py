@@ -253,7 +253,7 @@ def handle_text(message):
  #       bot.kick_chat_member(message.chat.id,toivo)
 
 #Антибот Система, которая не работает :с
-    elif message.from_user.id == tipabote:
+    elif 'unique:
         bot.send_message(message.chat.id, random.choice(antibotlist))
         # Ласт сообщение от Вади
 
